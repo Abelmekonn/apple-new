@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar img{
+  width: 17px;
+}
+.navbar .container-fluid{
+  width: 100%;
+  background-color: #212529;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.nav-link {
+  color: white;
+}
+.container-1{
+  background-image: url(../images/new/hero_apple_vision_pro__e8407ehady6i_large.jpg);
+}
+.container-1 .container .vission-logo{
+  margin-top: 380px ;
+}
+.container-2{
+  color: #fafafa;
+  background-image: url(../images/new/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+}
+.container-3{
+  background-image: url(../images/new/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+}
+.container-1,.container-2,.container-3{
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 600px;
+}
+.description{
+  font-size: 20px;
+  font-weight: 400;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.products{
+  width: 94% !important;
+  margin: auto;
+}
+.link{
+  text-align: center;
+}
+.link a:last-child{
+    
+    color: #06c;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding-left: 30px;
+}
+.link a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.card1{
+    background-image: url(../images/new/promo_apple_watch_series_9_order__b3u85rm9zf6u_small.jpg);
+    color: #fafafa;
+}
+.card2{
+    background-image: url(../images/new/promo_apple_watch_ultra2_order__dyxqj5ia98om_small_2x.jpg);
+}
+.card3{
+    background-image: url(../images/new/promo_mbp__ek7p477bkp6q_large.jpg);
+}
+.card4{
+  background-image: url(../images/new/promo__sw58lbodkmqq_small.jpg);
+  color: #fafafa;
+}
+.card5{
+  background-image: url(../images/new/tile__cauwwcyyn9hy_medium_2x.jpg);
+}
+.card6{
+  background-image: url(../images/new/promo_iphone_tradein__bugw15ka691e_small.jpg);
+}
+.card1,.card2,
+.card3,.card4,.card5,.card6{
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 48%;
+}
+
+footer{
+    background-color: #fafafa;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.56);
+    font-weight: 400;
+    line-height: 16px;
+}footer ul li a{
+  color: rgba(56, 55, 55, 0.56);
+  text-decoration: none;
+  margin-bottom: 10px !important;
+}
+footer ul li a:hover{
+  text-decoration: underline;
+  color: #343436;
+}
+footer .lists p{
+  color: #1a1a1b;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+@media screen and (max-width:768px){
+  .logo{
+    margin: 0;
+  }
+  .navbar-nav{
+    font-size: 20px;
+  }
+  .navbar-toggler{
+    position: relative;
+    left: 300px;
+  }
+  .cart{
+    position: relative;
+    right: 70px;
+  }
+  .search{
+    position: relative;
+    left: 20px;
+  }
+  .container-2{
+    background-image: url(../images/new/hero_iphone15pro__i70z9oz3hj2i_small.jpg);
+  }
+  .card3{
+    background-image: url(../images/new/promo_mbp__ek7p477bkp6q_medium.jpg);
+  }
+  .card1,.card2,
+  .card3,.card4,.card5,.card6{
+  width: 97%;
+}
+}
+@media (min-width: 768px) {
+  .btn{
+    height: 70px;
+    position: relative;
+    right: 190px;
+  
+  }
+  .btn:hover{
+    background-color: rgb(238, 78, 19) !important;
+  }
+  .carousel-caption p img{
+    position: relative;
+    left: 130px;
+  }
+  /*Nav bar*/
+  .logo{
+    margin-left: 170px;
+  }
+  .cart{
+    margin-right: 180px;
+  }
+  .search{
+    margin-right: 40px;
+  }
+}
